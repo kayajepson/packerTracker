@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>PACKER TRACKER</title>
+</head>
+<body>
+  <h1>Things to Pack</h1>
+
+  <form action="/things" method="post">
+    <label for="items">Add an Item</label>
+    <input id="items" name="items" type="text">
+    <br>
+    <label for="amount">Add an Amount</label>
+    <input id="amount" name="amount" type="number">
+    <br>
+    <p>Is it packed?</p>
+    <input type="radio" id="packed" name="packed" value="1">
+    <label for="radio">Yes</label>
+    <input type="radio" id="packed" name="packed" value="0">
+    <label for="radio">No</label>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
